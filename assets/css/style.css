@@ -1,0 +1,127 @@
+/* Global  */
+* {
+    margin:0;
+    padding:0;
+}
+.container {
+    max-width: 95%;
+    width: 100%;
+    margin: auto;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+/* header style */
+.trident-bg-image {
+    width: 100%;
+    height:100vh;
+    background: url(../images/tridentworks-bg.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.trident-logo {
+    width: 15%;
+    padding-top:35px;
+}
+.trident-logo img {
+    width: 100%;
+    height: auto;
+}
+/* middle content */
+.trident-middle-content {
+     width: 35%;
+    margin: auto;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100% */
+    
+}
+.trident-middle-content img {
+    width: 100%;
+    height: auto;
+}
+/* footer style */
+footer {
+    position: fixed;
+    bottom: 15px;
+    width: 100%;
+}
+.icon {
+    display: inline-block;
+    width: 20px;
+    margin-right: 7px;
+}
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    border-top: 2px solid #f3f3f3;
+    padding-top: 15px;
+}
+.trident-contant-info {
+    display: flex;
+}
+.contact-single-info {
+    display: flex;
+    margin-right: 15px;
+}
+.trident-contant-info p a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.trident-contant-info p a:hover {
+    cursor:pointer
+}
+.copyright-info {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 15px;
+}
+.trident-address-info {
+    display:flex;
+}
+.trident-address-info p {
+    line-height: 1.6;
+}
+.location-icon {
+    padding-top: 1px;
+}
+.trident-address-info p,
+.trident-contant-info p a,
+.copyright-info {
+    font-size: 16px;
+}
+
+/* responsive style */
+@media (max-width:768px) {
+    .trident-contant-info {
+        display: block;
+    }
+}
+@media (max-width:576px) {
+    .trident-logo {
+        padding-top: 15px;
+
+        width: 37%;
+    }
+    .trident-middle-content  {
+        width: 75%;
+        top: 38%;
+    }
+    .footer-info {
+        display: block;
+    }
+    .trident-address-info {
+        margin-top:15px;
+    }
+    .copyright-info {
+        text-align: left;
+    }
+}
