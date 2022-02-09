@@ -124,4 +124,9 @@ footer {
     .copyright-info {
         text-align: left;
     }
+    .trident-address-info p,
+    .trident-contant-info p a,
+    .copyright-info {
+        font-size: 14px; 
+    }
 }
