@@ -101,12 +101,13 @@ footer {
 
 /* responsive style */
 @media (max-width:768px) {
-    .trident-contant-info {
-        display: block;
-    }
     .trident-middle-content {
         width: 55%;
     }
+    .trident-contant-info {
+        display: block;
+    }
+   
 }
 @media (max-width:576px) {
     .trident-logo {
